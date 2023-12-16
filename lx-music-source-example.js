@@ -1,13 +1,13 @@
 /*!
- * @name 替换为你的音乐源名称
- * @description 替换为你的音乐源介绍
- * @version v1.1.0
- * @author Folltoshe & helloplhm-qwq
- * @repository https://github.com/lxmusics/lx-music-api-server
+ * @name 秋意浓
+ * @description 都是一家人
+ * @version v1.1.2
+ * @author wmej
+ * @repository https://github.com/wmej/lx-music-api-server
  */
 
 // 是否开启开发模式
-const DEV_ENABLE = true
+const DEV_ENABLE = false
 // 服务端地址
 const API_URL = 'http://127.0.0.1:9763'
 // 服务端配置的请求key
@@ -16,10 +16,10 @@ const API_KEY = ''
 // 全部的支持值: ['128k', '320k', 'flac', 'flac24bit']
 const MUSIC_QUALITY = {
   kw: ['128k', '320k', 'flac'],
-  kg: ['128k'],
-  tx: ['128k'],
-  wy: ['128k'],
-  mg: ['128k'],
+  kg: ['128k', '320k'],
+  tx: ['128k', '320k'],
+  wy: ['128k', '320k'],
+  mg: ['128k', '320k'],
 }
 // 音源配置(默认为自动生成,可以修改为手动)
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY)
